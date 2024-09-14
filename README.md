@@ -18,5 +18,14 @@ An apache spark ETL pipeline to ingest HTTP web server logs and analyse using ma
 - Read logs from text file
 - Use regex to extract groups. Groups correspond to columns
 - Update schema of dataframe
-- Add new columns
+- Add new columns using transformations
 - Partition and store in parquet format
+
+## Analysis
+
+- Most requested file types
+- Reply size stats
+- Avg reply size over time
+- HTTP methods distribution
+- Avg reply size by HTTP method
+- Request count by weekday
